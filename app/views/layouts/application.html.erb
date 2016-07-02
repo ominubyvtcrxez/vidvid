@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Myapp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+
+</head>
+<body style="background:url(http://cache3.asset-cache.net/xd/506283369.jpg?v=1&c=IWSAsset&k=2&d=62CA815BFB1CE480098CAC2C4E0110A686871D979DBBA83605EA906A3576023A12B7E3C32828B288);background-repeat: repeat">
+
+<div class="container">
+	<%= yield %>
+</div>
+
+</body>
+</html>

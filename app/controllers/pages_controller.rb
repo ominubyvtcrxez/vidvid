@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
-  def about
+  def My
   end
 
-  def contact
+  def Vids
   end
 end
